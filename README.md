@@ -58,8 +58,9 @@ System Diagrams and Flowcharts
 
 ![sequence2](https://user-images.githubusercontent.com/99630855/201490230-b903c365-7a4c-4972-8268-5687060b9cd0.png)
 
-=============================
+
 **Note on My Contributions**
+=============================
   While the core model and algorithms were developed by the original authors, I improved the project’s usability by:
       Resolving compatibility and dependency issues on my local machine
       Adding a requirements.txt file to streamline environment setup

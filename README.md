@@ -2,44 +2,53 @@ Sign-Language-To-Text-and-Speech-Conversion
 ===========================================
 
 **Abstract**
+==============
 Sign language is one of the oldest and most natural forms of communication, especially for the deaf and mute community. This project presents a real-time method using neural networks for finger-spelling based American Sign Language (ASL) recognition. It employs a convolutional neural network (CNN) to recognize hand gestures from images captured by a camera. The system processes the hand's position and orientation, applies filtering and classification, and uses calibrated images to train the CNN for accurate gesture recognition.
 
 
 **Introduction**
+==============
 American Sign Language (ASL) is widely used by the deaf and mute community for communication. Since these individuals cannot use spoken language, sign language becomes essential for exchanging thoughts and messages visually through hand gestures. This project aims to build a model that recognizes finger-spelling gestures of ASL to form words by combining individual signs.
 
 **Project Overview**
+===================
 This repository{https://github.com/Devansh-47/Sign-Language-To-Text-and-Speech-Conversion} contains the original project developed to recognize ASL finger-spelling gestures. My contributions involved adapting the existing codebase to run successfully on my system, troubleshooting dependencies, and creating a requirements.txt file to simplify installation for other users.
 
 **Key Features**
+================
     Real-time hand gesture recognition using CNN
     Uses MediaPipe for robust hand landmark detection under varied lighting and backgrounds
     Converts recognized gestures into text and speech using pyttsx3
     User-friendly interface for communication aid
 
 **Requirements**
+================
   Python 3.9+
   Webcam
   Libraries: OpenCV, NumPy, TensorFlow, Keras, MediaPipe, pyttsx3, cvzone
 
 **Installation**
+================
 To install the required Python packages, run:
     pip install -r requirements.txt
 
 
 **How to Use**
+==============
   Activate the virtual environment.
   Run the data collection script to gather hand gesture data.
   Train the CNN model on the collected data.
   Use final_pred.py for real-time prediction and text-to-speech conversion.
 
 **Project Structure**
+======================
   data_collection_final.py — Collects hand gesture images using MediaPipe
   train.py — Trains the CNN model on the preprocessed images
   final_pred.py — Runs real-time gesture recognition and converts text to speech
   requirements.txt — Lists all dependencies for easy setup
 
-System Diagrams and Flowcharts
+**System Diagrams and Flowcharts**
+=================================
 
 **System Flowchart:**
 

@@ -12,6 +12,24 @@ American Sign Language (ASL) is widely used by the deaf and mute community for c
 
 **Project Overview**
 ===================
+
+Project Contribution:
+====================
+
+This project involved building a real-time Sign Language to Text and Speech Conversion system using deep learning and computer vision techniques. While the core idea and codebase were initially developed by others, I took on the responsibility of adapting and improving the existing code to work seamlessly on my local environment. My key contributions included:
+
+*Resolving environment and dependency issues to ensure smooth project setup and execution.
+
+*Creating and maintaining the requirements.txt file to manage Python package dependencies effectively.
+
+*Customizing and optimizing code components to align with my system configuration.
+
+*Gaining a solid understanding of the underlying concepts and workflows by independently troubleshooting and enhancing the project.
+
+*Developing hands-on experience with key libraries such as TensorFlow, OpenCV, MediaPipe, and pyttsx3.
+
+This practical engagement helped me deepen my knowledge of machine learning project deployment and reinforced my problem-solving skills in real-world software integration.
+
 This repository{https://github.com/Devansh-47/Sign-Language-To-Text-and-Speech-Conversion} contains the original project developed to recognize ASL finger-spelling gestures. My contributions involved adapting the existing codebase to run successfully on my system, troubleshooting dependencies, and creating a requirements.txt file to simplify installation for other users.
 
 **Key Features**

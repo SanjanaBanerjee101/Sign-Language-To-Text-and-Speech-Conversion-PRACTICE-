@@ -12,6 +12,7 @@ American Sign Language (ASL) is widely used by the deaf and mute community for c
 
 **Project Overview**
 ===================
+My primary objective for this project was to deepen my understanding of real-world machine learning deployment and environment setup, learning under guidance while independently overcoming challenges.
 
 Project Contribution:
 ====================
